@@ -109,6 +109,11 @@ body{
    font-weight: 700;
    font-size: 14px;
 }
+.changelink:hover {
+    color: hsl(224, 23%, 55%);
+    cursor:pointer;
+    text-decoration: none;
+}
 
 .btn1 {
 
@@ -127,6 +132,11 @@ body{
 
     
 }
+
+.btn1:hover{
+    background-color: hsl(245, 83%, 68%,100%);
+    cursor:pointer;
+}
 .btn2{
     display:block;
     font-size: 16px;
@@ -136,6 +146,11 @@ body{
     text-align: center;
     
 
+}
+
+.btn2:hover{
+    color:hsl(245, 75%, 52%);
+    cursor: pointer;
 }
 
 
