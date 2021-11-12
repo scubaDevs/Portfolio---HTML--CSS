@@ -136,6 +136,8 @@ body{
 .btn1:hover{
     background-color: hsl(245, 83%, 68%,100%);
     cursor:pointer;
+    text-decoration: underline white;
+    
 }
 .btn2{
     display:block;
@@ -144,18 +146,21 @@ body{
     font-weight: 900;
     color: hsl(224, 23%, 55%);
     text-align: center;
+   
+    
+    
     
 
 }
 
 .btn2:hover{
+    
     color:hsl(245, 75%, 52%);
     cursor: pointer;
+    text-decoration: underline;
+ 
 }
-
-
-
-.footer{
+.footer1{
     
         padding:30px;
         display: flex;
@@ -164,6 +169,7 @@ body{
      
     
     }
+
 @media(max-width: 600px){
 
     body{
@@ -183,7 +189,7 @@ body{
     
 
 
-.footer{
+.footer1{
     padding:30px;
     display: flex;
     align-items: center;
